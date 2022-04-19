@@ -4,7 +4,7 @@
 **Dhvani Patel**<br>
 **Harsh Raval**<br>
 **Anurag Tyagi**<br>
-**Keerthy Nallabantu** <br>
+**Keerthi Nallabantu** <br>
 
 ### Project Goal
 The goal of this project is to analyze the drug reviews using Natural Language Processing. The project will be evaluated using both the accuracy of correct prediction and confusion matrix. There will be predictions for disease like Anxity, Birth Control, Depression, Diabetes, Type 2, etc. The study will be completed in few steps as mentioned below. The first of which we will use the drug review data from drugs.com. This will give an explanation as to how words are extracted can be used to predict the medical condition of a patient. Our group plans to use several types of analyses to help predict the medical condition based on reviews using Bag of words and TFIDF tokenizers and Naive Bayes and Passive Aggressive Classifier.

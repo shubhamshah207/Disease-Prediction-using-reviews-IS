@@ -24,4 +24,4 @@ The goal of this project is to analyze the drug reviews using Natural Language P
 - Apply two most accurate for text dataset machine learning algorithms: Naive Bayes & Passive Agressive Classifier.
 - Compare both models and choose the most accurate one. 
 
-![image.png](attachment:43672192-1bb1-4155-9e5c-0c4efa9e3051.png)
+![image](https://user-images.githubusercontent.com/79810765/164039197-3642934b-374e-4690-a120-f0a35a7314b9.png)

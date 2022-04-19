@@ -25,3 +25,16 @@ The goal of this project is to analyze the drug reviews using Natural Language P
 - Compare both models and choose the most accurate one. 
 
 ![image](https://user-images.githubusercontent.com/79810765/164039197-3642934b-374e-4690-a120-f0a35a7314b9.png)
+
+
+Source Reference: https://archive.ics.uci.edu/ml/datasets/Drug+Review+Dataset+%28Drugs.com%29
+- The dataset represent the reviews of the drugs extracted from the site Drugs.com
+- There are total six features in the given dataset, which includes 215063 number of records.
+
+- Unnamed:0 Extra column, can be removed as not needed.
+- drugName: Name of the drug used by patient, for which review is written. (Can be Categorical)
+- condition: Traget variable or patient's actual condition. (Categorical)
+- review: The reviews from patients. (Nominal)
+- rating: out of 20 (Numeric/Categorical)
+- date: Review date.
+- usefulCount: Number of visitors found that particular review as useful.

@@ -14,3 +14,14 @@ The goal of this project is to analyze the drug reviews using Natural Language P
 - How different tokenization method affect the reviews dataset and accuracy?
 - Which model is more efficient for this particular dataset?
 - Which is more accurate stemming vs lemmitization?
+
+**This notebook will contain below action items**
+- Tokenize the reviews.
+- Clean them by removing puntuation, special characters, numbers.
+- Convert them to lower case for better accuracy.
+- Lemmitization in place of stemming.
+- Two different methods to verctorize: Bag of words & TFIDF.
+- Apply two most accurate for text dataset machine learning algorithms: Naive Bayes & Passive Agressive Classifier.
+- Compare both models and choose the most accurate one. 
+
+![image.png](attachment:43672192-1bb1-4155-9e5c-0c4efa9e3051.png)

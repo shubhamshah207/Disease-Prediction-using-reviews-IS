@@ -26,6 +26,9 @@ The goal of this project is to analyze the drug reviews using Natural Language P
 - Apply two most accurate for text dataset machine learning algorithms: Naive Bayes & Passive Agressive Classifier.
 - Compare both models and choose the most accurate one. 
 
+![image](https://user-images.githubusercontent.com/79810765/164042556-296463f0-6708-4497-a78c-a97c9e2065fc.png)
+
+
 ![image](https://user-images.githubusercontent.com/79810765/164039567-ab44cc2f-be50-4f9b-bc08-a9621d6b77cf.png)
 
 ## Dataset 
@@ -34,12 +37,7 @@ Source Reference: https://archive.ics.uci.edu/ml/datasets/Drug+Review+Dataset+%2
 - There are total six features in the given dataset, which includes 215063 number of records.
 
 - Unnamed:0 Extra column, can be removed as not needed.
-- drugName: Name of the drug used by patient, for which review is written. (Can be Categorical)
-- condition: Traget variable or patient's actual condition. (Categorical)
-- review: The reviews from patients. (Nominal)
-- rating: out of 20 (Numeric/Categorical)
-- date: Review date.
-- usefulCount: Number of visitors found that particular review as useful.
+- ![image](https://user-images.githubusercontent.com/79810765/164042712-d8c7c4ea-770a-428e-92c8-42c64b2b525d.png)
 
 ## Data Preprocessing and Data Cleaning
 - As there are no missing values, we do not need to deal with that.
@@ -89,3 +87,27 @@ Source Reference: https://archive.ics.uci.edu/ml/datasets/Drug+Review+Dataset+%2
 
 ### Word Cloud for Diabetes, Type 2
 ![image](https://user-images.githubusercontent.com/79810765/164041993-ef44d611-5448-4575-bd12-c6c12d4f7415.png)
+
+
+## Models and Accuracy
+![image](https://user-images.githubusercontent.com/79810765/164042941-72020d76-a35a-4624-9736-e5619bb3129e.png)
+
+## Data Analysis
+- Created confusion matrix for each model mentioned. 
+- Implemented the method to find out top 5 important words for a particular class using coefficient of the classifier.
+- According to the accuracy, TFIDF with 5 grams and 4 grams have same accuracy. 
+
+## Prediction with actual review of 2020
+Review = “This is the best medication for anxiety that I've ever tried. You know what it makes me feel like? Like when I was a child before I developed anxiety. I spoke freely. I didn't worry about being judged. So now with this med, I'm not analyzing every word that I say before I say it while panicking that I might say the \"wrong\" thing. I speak freely and comfortably again. I am myself.”
+
+Model Prediction : "Anxiety”
+
+Actual Condition: “Anxiety” 
+
+Reference: https://www.drugs.com/comments/alprazolam/xanax-for-anxiety.html
+ 
+## Conclusion
+The best model is TFIDF with 5 grams using Passive Aggressive Classifier ML model 95 % accurate.
+
+## Future Aspect
+The system can recommend appropriate drugs based on the reviews from which classification is already done in this project.

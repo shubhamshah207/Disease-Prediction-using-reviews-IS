@@ -88,6 +88,32 @@ Source Reference: https://archive.ics.uci.edu/ml/datasets/Drug+Review+Dataset+%2
 ### Word Cloud for Diabetes, Type 2
 ![image](https://user-images.githubusercontent.com/79810765/164041993-ef44d611-5448-4575-bd12-c6c12d4f7415.png)
 
+### Confusion Matrix for Bag of words + Naive Bayes
+![image](https://user-images.githubusercontent.com/79810765/164043989-f8c22a93-f0df-4670-831c-6c44c3473753.png)
+
+### Confusion Matrix for Bag of words + Passive Agressive
+![image](https://user-images.githubusercontent.com/79810765/164044265-59eb5591-74fc-4adc-800b-250c56497dd2.png)
+
+### Confusion Matrix for TFIDF + Naive Bayes
+![image](https://user-images.githubusercontent.com/79810765/164044335-5a1075b9-a466-4e4a-9371-039f005e6b45.png)
+
+### Confusion Matrix for TFIDF + Passive Agressive
+![image](https://user-images.githubusercontent.com/79810765/164044457-6cdbaa4f-6c01-442f-a21a-2d9c7fc0d87c.png)
+
+### Confusion Matrix for TFIDF:Bigrams + Passive Agressive
+![image](https://user-images.githubusercontent.com/79810765/164044552-e8d5f8a6-489a-46cc-a289-67242e5c9024.png)
+
+### Confusion Matrix for TFIDF:Trigrams + Passive Agressive
+![image](https://user-images.githubusercontent.com/79810765/164044670-0b9eba32-27b3-4bc7-804b-b34e4e5e04ea.png)
+
+### Confusion Matrix for TFIDF:Four Grams + Passive Agressive
+![image](https://user-images.githubusercontent.com/79810765/164044870-b59689af-367e-4afc-8139-d3f5d09bbd71.png)
+
+### Confusion Matrix for TFIDF:Five Grams + Passive Agressive
+![image](https://user-images.githubusercontent.com/79810765/164044910-4f01fbe0-dedc-4a5c-a346-62d06855efe0.png)
+
+### Confusion Matrix for TFIDF:Six Grams + Passive Agressive
+![image](https://user-images.githubusercontent.com/79810765/164044952-3516d354-452d-4cf8-ab1f-07a2c6da03e8.png)
 
 ## Models and Accuracy
 ![image](https://user-images.githubusercontent.com/79810765/164042941-72020d76-a35a-4624-9736-e5619bb3129e.png)

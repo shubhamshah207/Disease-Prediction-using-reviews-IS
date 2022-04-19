@@ -17,6 +17,9 @@ The goal of this project is to analyze the drug reviews using Natural Language P
 - Which model is more efficient for this particular dataset?
 - Which is more accurate stemming vs lemmitization?
 
+### Open Notebook in Colab
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shubhamshah207/Disease-Prediction-using-reviews-IS/blob/master/main.ipynb)
+
 **This notebook will contain below action items**
 - Tokenize the reviews.
 - Clean them by removing puntuation, special characters, numbers.
